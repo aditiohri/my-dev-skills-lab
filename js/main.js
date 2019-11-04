@@ -1,5 +1,5 @@
 $('#add').click(function() {
-    var skillSet = $('#input').val();
+    var skillSet = $('#skill').val();
     $('#skills').append(`<li><button id="del">X</button> ${skillSet}</li>`);
 })
 
